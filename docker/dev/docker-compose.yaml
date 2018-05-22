@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  brigade-custom:
+    build:
+      context: ../..
+      dockerfile: docker/dev/Dockerfile
+    volumes:
+      - ../..:/home/custom

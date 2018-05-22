@@ -1,0 +1,12 @@
+
+// This file is a big ugly hack until we can develop libraries outside brigadier code.
+// this file will be replace brigadier.js when copying our code to the worker in the
+// brigadier src directory.
+
+// * imports as a project imports from node_modules brigadier lib
+// * imports as code inside brigadier source code imports from local files.
+
+export { BrigadeEvent, Project } from "../events";
+export { Group } from "../group";
+export { Job as JobAbs, Result } from "../job";
+export { Job } from "../brigadier";
